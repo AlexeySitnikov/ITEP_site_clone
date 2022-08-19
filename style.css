@@ -1,0 +1,92 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #c2cbba;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+header .KI_logo{
+  height: 80px;
+}
+
+header .ITEP_logo{
+  height: 80px;
+}
+
+.header__NRC_ITEP{
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header__ITEP_logo{
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__links{
+  display: flex;
+  justify-content:space-around;
+  margin-bottom: 50px;
+  font-size: 28px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu__news{
+  display: flex;
+  justify-content: center;  
+}
+
+.menu__news_all_photo{
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  margin-right: 100px;
+}
+
+.menu__news_all_photo img{
+  width: 800px;
+}
+
+.menu__news_main_news{
+width: 600px;
+}
+
+.menu__news_main_news p{
+  text-align: center;
+  font-size: 28px;
+}
+
+.menu__news_main_news a{
+  font-size: 20px;
+  
+}
+
+.menu__news_main_news_head{
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about{
+  margin-top: 50px;
+  text-align: justify;
+}
+
+.about p{
+  margin: 50px;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
