@@ -17,11 +17,11 @@ header{
 }
 
 header .KI_logo{
-  height: 80px;
+  height: 100px;
 }
 
 header .ITEP_logo{
-  height: 80px;
+  height: 100px;
 }
 
 .header__NRC_ITEP{
@@ -29,7 +29,7 @@ header .ITEP_logo{
   font-size: 32px;
   font-weight: bold;
   padding: 10px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;  
 }
 
 .header__ITEP_logo{
@@ -37,12 +37,24 @@ header .ITEP_logo{
   flex-direction: column;
 }
 
+header button{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+
+a{
+  text-decoration:underline;
+}
+
 .menu__links{
   display: flex;
   justify-content:space-around;
   margin-bottom: 50px;
-  font-size: 28px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  font-family: 'Alegreya Sans', sans-serif;
 }
 
 .menu__news{
@@ -77,7 +89,7 @@ width: 600px;
 
 .menu__news_main_news_head{
   font-size: large;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Alegreya Sans', sans-serif
 }
 
 .about{
@@ -88,5 +100,5 @@ width: 600px;
 .about p{
   margin: 50px;
   font-size: 24px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Alegreya Sans', sans-serif
 }
